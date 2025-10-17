@@ -6,13 +6,19 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 161, 194, 140),
-      appBar: AppBar(title: Text('HomeScreen'), elevation: 10.0),
+      backgroundColor: const Color.fromARGB(255, 26, 255, 0),
+      appBar: AppBar(
+        title: Text('HomeScreen'),
+        elevation: 10.0,
+        backgroundColor: const Color.fromARGB(255, 255, 7, 201),
+        shadowColor: const Color.fromARGB(255, 191, 255, 0),
+      ),
       body: Center(
         child: const Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text('aaaaaaaaaaaaaaaaaaaaaaaa'),
+            SizedBox(height: 100),
             Text('AAAAAAAAAAAAAAAAAAAAAAAAA'),
           ],
         ),
